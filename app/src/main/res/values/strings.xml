@@ -4,4 +4,15 @@
     <string name="LOGIN">login</string>
     <string name="REG">Register</string>
     <string name="LOGOUT">logout</string>
+    <string name="ex_20137582_s_ubaguio_edu">ex: 20137582@s.ubaguio.edu</string>
+    <string name="registration_information">Registration Information</string>
+    <string name="user_registration">User Registration</string>
+    <string name="id_number">ID Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="rpassword">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="rregister">Register</string>
+    <string name="must_be_the_same_with_password">Must be the same with password</string>
 </resources>

@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+    <TextView
+        android:id="@+id/rInforTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/registration_information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoTV"
+        android:layout_width="0dp"
+        android:layout_height="383dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/rInforTV"
+        app:layout_constraintStart_toStartOf="@+id/rInforTV"
+        app:layout_constraintTop_toBottomOf="@+id/rInforTV" />
+
+    <Button
+        android:id="@+id/pLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/LOGOUT"
+        app:layout_constraintStart_toStartOf="@+id/infoTV"
+        app:layout_constraintTop_toBottomOf="@+id/infoTV" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
